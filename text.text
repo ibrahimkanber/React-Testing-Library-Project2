@@ -1,0 +1,22 @@
+--Bugun ne yapacagiz?
+
+1.Sayfalar arasinda gecis yapacaz(switch-route)
+2.Sayfalar arasinda parametre gecirecesgiz
+
+
+--Bugunden sonra 1 hafta ne yapacaz
+(Korkmaz sakin yatmayi düsünme:)))
+
+---ne ögrenmis olacaz:
+    -component import export vs 
+    -props ile componentler arasi data gecirecesgi
+    -useState,useEffect
+    -react-router-dom
+    -axios ile veri cekme/yada fetch ile
+
+---seri halinde yapacagimiz projelerdeki patern ne ?
+
+1.useEffect icinde axios ile veriyi API den cek
+2.cektigimiz veriyi state e aticaz (useState)
+3.state deki veriyi alip mapleyecez(ornek film listesi cektik filmleri cardlar ile ekrana bastiracz)
+4.Card a tiklayinca film detay sayfasina gidecek(reac router dom-usehistory vs) ve ayni zamanda detay sayfasina bazi verileri gecirecesgiz ve detay sayfasinda da o veriyi yakalayacagiz(attigim 2. video da var useParams)
